@@ -10,5 +10,5 @@ app.use(express.urlencoded({ extended: false }));
 
 
 app.listen(port, () => {
-  console.log(`cats are available on http://localhost:${port}`);
+  console.log(`greenfield available on http://localhost:${port}`);
 });

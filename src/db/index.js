@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/hotel-reservation", {
+mongoose.connect("mongodb://localhost:27017/hotel-reservation", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -9,3 +9,4 @@ db.on("error", console.error.bind(console, "connection error:"));
 db.once("open", function () {
   console.log("We are connected to MongoDB");
 });
+

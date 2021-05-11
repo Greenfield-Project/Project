@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import NavBar from '../components/NavBar/NavBar.jsx'
 import{Button} from '../components/NavBar/Button.jsx'
-var myImg = require('../../dist/style/image/img1');
+// var myImg = require('../../dist/style/image/img1');
 ;
 
 
@@ -16,7 +16,7 @@ class HomePage extends React.Component {
     return (
       <div><NavBar/>
       <div className='img-container' >
-        <img src={myImg}/>
+        <img />
         <h3>LIVE THE WONDEROUS LIFE</h3>
         <p>What are you waiting for ?</p>
         <Button className='btns' buttonStyle='btn--outline'

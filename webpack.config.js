@@ -20,7 +20,13 @@ module.exports = {
                 "@babel/preset-env"
             ]
         }
-      }
+      },
+      {
+        test: /\.(jpg|png)$/,
+        use: {
+          loader: 'url-loader',
+        }}
+    
     ]
   },
   mode: "development"

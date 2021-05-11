@@ -1,0 +1,19 @@
+[
+  {"username" : "Marie",
+  "email":"marie@gmail.fr",
+  "password": "aadbbdjsj",
+  "adresse": "39 rue emile cordon 92000",
+  "dateOfBirth":"1970-05-09",
+  "gender":"female",
+  "status":true
+},
+
+{"username" : "manuel",
+  "email":"manuel@gmail.fr",
+  "password": "adldfbnv,c",
+  "adresse": "2 avenue leonard de vinci 92000",
+  "dateOfBirth":"1984-07-02",
+  "gender":"male",
+  "status":true
+}
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "room_number": 1,
+    "type": "Single",
+    "beds": 1,
+    "cost_per_night": 100,
+    "available": true
+  },
+  {
+    "room_number": 2,
+    "type": "Single",
+    "beds": 1,
+    "cost_per_night": 100,
+    "available": true
+  },
+  {
+    "room_number": 3,
+    "type": "Single",
+    "beds": 1,
+    "cost_per_night": 100,
+    "available": true
+  },
+  {
+    "room_number": 4,
+    "type": "Double",
+    "beds": 2,
+    "cost_per_night": 200,
+    "available": true
+  },
+  {
+    "room_number": 5,
+    "type": "Double",
+    "beds": 2,
+    "cost_per_night": 200,
+    "available": true
+  },
+  {
+    "room_number": 6,
+    "type": "Triple",
+    "beds": 3,
+    "cost_per_night": 300,
+    "available": true
+  },
+  {
+    "room_number": 7,
+    "type": "Triple",
+    "beds": 3,
+    "cost_per_night": 300,
+    "available": true
+  },
+  {
+    "room_number": 8,
+    "type": "Triple",
+    "beds": 3,
+    "cost_per_night": 300,
+    "available": true
+  },
+  {
+    "room_number": 9,
+    "type": "Suite",
+    "beds": 5,
+    "cost_per_night": 500,
+    "available": true
+  },
+  {
+    "room_number": 10,
+    "type": "Suite",
+    "beds": 5,
+    "cost_per_night": 500,
+    "available": true
+  }
+]

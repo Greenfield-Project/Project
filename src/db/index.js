@@ -10,3 +10,5 @@ db.once("open", function () {
   console.log("We are connected to MongoDB");
 });
 
+module.exports=db
+

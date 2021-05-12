@@ -1,7 +1,6 @@
 import React from "react";
 
-
-class Booking extends React.Component {
+class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -9,9 +8,9 @@ class Booking extends React.Component {
   render() {
     return (
       <div>
-       <h1>Booking Page </h1>
+       <h1>Page Contact </h1>
       </div>
     );
   }
 }
-export default Booking;
+export default Contact;

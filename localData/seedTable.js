@@ -1,14 +1,14 @@
 const Room = require('../src/models/room')
-const User=require('../src/models/user')
-const Booking=require('../src/models/booking')
-const Admin =require ('../src/models/admin')
+const User = require('../src/models/user')
+const Booking = require('../src/models/booking')
+const Admin = require ('../src/models/admin')
 
-const db =require('../src/db')
+const db = require('../src/db')
 
-const rooms=require('./room.json')
-const users =require('./user.json')
-const admins =require('./admin.json')
-const bookings=require('./booking.json')
+const rooms= require('./room.json')
+const users = require('./user.json')
+const admins = require('./admin.json')
+const bookings = require('./booking.json')
 
 //add Rooms from room.json to table Room 
 //add Users from user.json to table User

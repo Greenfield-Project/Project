@@ -1,31 +1,31 @@
 const express = require("express");
 const router = express.Router();
 
-const Room = require("../models/room");
+const User = require("../models/user");
 
 
-//create new Room 
+//create new user 
 router.post("/", (req, res) => {
   console.log(req.body);
-  let newRoom = new Room(req.body);
-  newRoom.save(() => {
+  let newUser = new User(req.body);
+  newUser.save(() => {
     res.send("New User added successfully");
   });
 });
-// Get all Room
+// Get all Users
 
 router.get("/", (req, res) => {
-  Room.find({})
+  User.find({})
     .then((result) => {
       res.send(result);
     })
     .catch((err) => console.log(err));
 });
 
-// Get Room by ID
+// Get User by ID
 router.get("/:id", (req, res) => {
-  Room.findById(req.params.id)
-    .then((room) => res.send(room))
+  User.findById(req.params.id)
+    .then((user) => res.send(user))
     .catch((err) => {
       console.log(err);
     });

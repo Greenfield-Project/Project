@@ -1,5 +1,5 @@
 import React from "react";
-
+import NavBar from "../components/NavBar/NavBar.jsx";
 
 class Login extends React.Component {
   constructor(props) {
@@ -9,7 +9,8 @@ class Login extends React.Component {
   render() {
     return (
       <div>
-       <h1>Login </h1>
+        <NavBar />
+        <h1>Login </h1>
       </div>
     );
   }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { MenuItems } from "./MenuItems.jsx";
-import {Button} from"./Button.jsx"
+import { Button } from "./Button.jsx";
+import { Link } from "react-router-dom";
 
 class NavBar extends React.Component {
   render() {
@@ -14,14 +15,14 @@ class NavBar extends React.Component {
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.cName} href={item.url}>
+                <Link className={item.cName} to={item.url}>
                   {item.title}
-                </a>
+                </Link>
               </li>
             );
           })}
         </ul>
-        <Button>Sign up</Button> &nbsp;&nbsp;&nbsp; 
+        <Button>Sign up</Button> &nbsp;&nbsp;&nbsp;
         <Button>Login</Button>
       </nav>
     );

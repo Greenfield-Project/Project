@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar from "../components/NavBar/NavBar.jsx";
 
 
 class Booking extends React.Component {
@@ -9,6 +10,7 @@ class Booking extends React.Component {
   render() {
     return (
       <div>
+        <NavBar/>
        <h1>Booking Page </h1>
       </div>
     );

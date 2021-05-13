@@ -89,8 +89,8 @@
   },
   {
     "room_number": 9,
-    "type": "Suite",
-    "beds": 5,
+    "type": "Suite_room",
+    "beds": 4,
     "cost_per_night": 500,
     "max_occupancy": 4,
     "reserved": [
@@ -100,7 +100,29 @@
   },
   {
     "room_number": 10,
-    "type": "Suite",
+    "type": "Suite_room",
+    "beds": 4,
+    "cost_per_night": 500,
+    "max_occupancy": 4,
+    "reserved": [
+      { "from": "2017-04-18", "to": "2017-04-23" },
+      { "from": "2018-01-29", "to": "2018-01-30" }
+    ]
+  },
+  {
+    "room_number": 11,
+    "type": "Suite_hotel",
+    "beds": 5,
+    "cost_per_night": 500,
+    "max_occupancy": 4,
+    "reserved": [
+      { "from": "2017-04-18", "to": "2017-04-23" },
+      { "from": "2018-01-29", "to": "2018-01-30" }
+    ]
+  },
+  {
+    "room_number": 12,
+    "type": "Suite_hotel",
     "beds": 5,
     "cost_per_night": 500,
     "max_occupancy": 4,

@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar/NavBar.jsx";
-
+import DateRange from "./booking/DateRange.jsx";
 
 class Booking extends React.Component {
   constructor(props) {
@@ -10,8 +10,9 @@ class Booking extends React.Component {
   render() {
     return (
       <div>
-        <NavBar/>
-       <h1>Booking Page </h1>
+        <NavBar />
+        <DateRange />
+        <h1>Booking Page </h1>
       </div>
     );
   }

@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar/NavBar.jsx";
-import DateRange from "./booking/DateRange.jsx";
+import { DropItems } from "../components/booking/DropItems.jsx";
+import BookingsForm from "./booking/BookingsForm.jsx";
 
 class Booking extends React.Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class Booking extends React.Component {
     return (
       <div>
         <NavBar />
-        <DateRange />
+        <BookingsForm DropItems={DropItems} />
         <h1>Booking Page </h1>
       </div>
     );

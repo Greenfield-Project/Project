@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import DatePicker from "react-datepicker";
 import moment from "moment";
 import "react-datepicker/dist/react-datepicker.css";
@@ -66,5 +66,4 @@ class DateRange extends React.Component {
   }
 }
 
-// export default DateRange;
 export default DateRange;

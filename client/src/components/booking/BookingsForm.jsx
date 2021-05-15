@@ -1,13 +1,15 @@
 import React from "react";
 import { DropItems } from "./DropItems.jsx";
 import DateRange from "./DateRange.jsx";
+import axios from "axios";
+
 class BookingsForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      numberOfBeds: 0,
-      numberOfGuests: 0,
-      typeOfRoom: "",
+      numberOfBeds: 1,
+      numberOfGuests: 1,
+      typeOfRoom: "Single",
       checkInDate: "",
       checkOutDate: "",
     };
@@ -17,6 +19,7 @@ class BookingsForm extends React.Component {
     this.handleDateOut = this.handleDateOut.bind(this);
   }
 
+  // with the handleChange we used ...setState to update all the composant of the state
   handleChange(event) {
     if (event.target.name === "numberOfBeds") {
       this.setState({
@@ -35,23 +38,37 @@ class BookingsForm extends React.Component {
       });
     }
   }
-
+  //  submit all the value of the state to compare them with the database after that
   handleSubmit(event) {
     event.preventDefault();
-    alert(
-      "your reservation is done : number of beds is " + 
-        this.state.numberOfBeds +
-        ", guests is " +
-        this.state.numberOfGuests +
-        ", type of room is " +
-        this.state.typeOfRoom +
-        ", date in is" +
-        this.state.checkInDate +
-        ", date out is" +
-        this.state.checkOutDate
-    );
+    axios
+      .post("/rooms", {
+        roomType: this.state.typeOfRoom,
+        beds: this.state.numberOfBeds,
+        // cost_per_night: 300,
+        max_occupancy: this.state.numberOfGuests,
+        from: this.state.checkInDate,
+        to: this.state.checkOutDate,
+      })
+      .then((res) => console.log("warrini aman", res));
   }
 
+  // alert(
+  //   "your reservation is done : number of beds is " +
+  //     this.state.numberOfBeds +
+  //     ", guests is " +
+  //     this.state.numberOfGuests +
+  //     ", type of room is " +
+  //     this.state.typeOfRoom +
+  //     ", date in is" +
+  //     this.state.checkInDate +
+  //     ", date out is" +
+  //     this.state.checkOutDate
+  // );
+
+  // handleDate wil store the value of the the chechIn date
+  //when the user select the date we get the date selected from the front and we pass the value to the parent component "bookingForm" using a callback function in the props checkOutDateCallback
+  //the parent use this props and get the value in handleDate function and update the state object
   handleDateIn(date) {
     console.log("date in " + date);
     this.setState({
@@ -59,6 +76,7 @@ class BookingsForm extends React.Component {
       checkInDate: date,
     });
   }
+  // handleDate wil store the value of the the chechOut date
 
   handleDateOut(date) {
     console.log("date out " + date);
@@ -84,8 +102,7 @@ class BookingsForm extends React.Component {
               onChange={this.handleChange}>
               {DropItems.map((item, index) => {
                 return (
-                  <option index={item.bed} value={item.Bed}>
-                    {" "}
+                  <option index={item.Bed} value={item.Bed}>
                     {item.Bed}
                   </option>
                 );
@@ -102,7 +119,6 @@ class BookingsForm extends React.Component {
               {DropItems.map((item, index) => {
                 return (
                   <option index={item.Guests} value={item.Guests}>
-                    {" "}
                     {item.Guests}
                   </option>
                 );
@@ -119,7 +135,6 @@ class BookingsForm extends React.Component {
               {DropItems.map((item, index) => {
                 return (
                   <option index={item.Room_type} value={item.Room_type}>
-                    {" "}
                     {item.Room_type}
                   </option>
                 );

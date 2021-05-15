@@ -21,20 +21,20 @@ if(err) throw err;
 console.log("Rooms added successfully")
 })
 
-// User.insertMany(users,(err,docs)=>{
-//   if(err) throw err;
-//   console.log('Users added successfully')
-// })
+User.insertMany(users,(err,docs)=>{
+  if(err) throw err;
+  console.log('Users added successfully')
+})
 
-// Booking.insertMany(bookings,(err,docs)=>{
-//   if(err) throw err;
-//   console.log('Booking added successfully')
-// })
+Booking.insertMany(bookings,(err,docs)=>{
+  if(err) throw err;
+  console.log('Booking added successfully')
+})
 
-// Admin.insertMany(admins,(err,docs)=>{
-//   if(err) throw err;
-//   console.log('Admin added successfully')
-// })
+Admin.insertMany(admins,(err,docs)=>{
+  if(err) throw err;
+  console.log('Admin added successfully')
+})
 
 
 

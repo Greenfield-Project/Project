@@ -3,16 +3,18 @@ const router = express.Router();
 
 const Room = require("../models/room");
 
-//create new Room
+// create new Room
 // router.post("/", (req, res) => {
 //   console.log(req.body);
 //   let newRoom = new Room(req.body);
 //   newRoom.save(() => {
 //     res.send("New User added successfully");
 //   });
-// });
-// Get all Room
+// })
 
+
+
+// Get all Rooms
 router.get("/", (req, res) => {
   Room.find({})
     .then((result) => {
@@ -35,10 +37,10 @@ router.post("/", (req, res) => {
   Room.find({
     type: req.body.roomType,
     beds: req.body.beds,
-    max_occupancy: { $gt: req.body.max_occupancy },
-    cost_per_night: { $lte: req.body.cost_per_night },
+    max_occupancy: { $gte: req.body.max_occupancy },
+    //cost_per_night: { $lte: req.body.cost_per_night },
     reserved: {
-      //Check if any of the dates the room has been reserved for overlap with the requsted dates
+      //Check if any of the dates the room has been reserved  with the requsted dates
       $not: {
         $elemMatch: {
           from: { $lt: req.body.to.substring(0, 10) },

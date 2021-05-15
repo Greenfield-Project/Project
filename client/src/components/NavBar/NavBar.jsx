@@ -10,7 +10,7 @@ class NavBar extends React.Component {
         <h1 className="navbar-logo">
           React<i className="fab fa-react"></i>
         </h1>
-        <div className="menu-icon">{console.log(MenuItems)}
+        <div className="menu-icon">
         </div>
         <ul className="nav-menu">
           {MenuItems.map((item, index) => {

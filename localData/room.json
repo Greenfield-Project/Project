@@ -1,72 +1,135 @@
 [
   {
-    "room_number": 1,
     "type": "Single",
     "beds": 1,
     "cost_per_night": 100,
-    "available": true
+    "max_occupancy": 1,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/3/35/Ibis_Hotels_Dresden_Single_Room_Standard_Queen_Size_Bed.png",
+
+    "reserved": [{ "from": "2021-07-01", "to": "2021-07-03" }]
   },
   {
-    "room_number": 2,
     "type": "Single",
     "beds": 1,
     "cost_per_night": 100,
-    "available": true
+    "max_occupancy": 1,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/3/35/Ibis_Hotels_Dresden_Single_Room_Standard_Queen_Size_Bed.png",
+    "reserved": [{ "from": "2021-08-01", "to": "2021-08-03" }]
   },
   {
-    "room_number": 3,
     "type": "Single",
     "beds": 1,
     "cost_per_night": 100,
-    "available": true
+    "max_occupancy": 1,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/3/35/Ibis_Hotels_Dresden_Single_Room_Standard_Queen_Size_Bed.png",
+    "reserved": [{ "from": "2021-09-01", "to": "2021-09-03" }]
   },
   {
-    "room_number": 4,
     "type": "Double",
     "beds": 2,
     "cost_per_night": 200,
-    "available": true
+    "max_occupancy": 2,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://marriottnews.brightspotcdn.com/f4/e2/60497f26df6a9c9c03b69255fcdd/tp-sarasota-modern-1.png",
+    "reserved": [{ "from": "2021-10-01", "to": "2021-10-03" }]
   },
   {
-    "room_number": 5,
     "type": "Double",
     "beds": 2,
     "cost_per_night": 200,
-    "available": true
+    "max_occupancy": 2,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Family-Room.png",
+    "reserved": [{ "from": "2021-11-01", "to": "2021-11-03" }]
   },
   {
-    "room_number": 6,
+    "type": "Double",
+    "beds": 2,
+    "cost_per_night": 200,
+    "max_occupancy": 2,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Family-Room.png",
+    "reserved": [{ "from": "0000-00-00", "to": "0000-00-00" }]
+  },
+  {
     "type": "Triple",
     "beds": 3,
     "cost_per_night": 300,
-    "available": true
+    "max_occupancy": 3,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Family-Room.png",
+    "reserved": [{ "from": "2021-12-05", "to": "2021-12-10" }]
   },
   {
-    "room_number": 7,
     "type": "Triple",
     "beds": 3,
     "cost_per_night": 300,
-    "available": true
+    "max_occupancy": 3,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Standard-Room1.png",
+    "reserved": [{ "from": "2021-12-05", "to": "2021-12-10" }]
   },
   {
-    "room_number": 8,
     "type": "Triple",
     "beds": 3,
     "cost_per_night": 300,
-    "available": true
+    "max_occupancy": 3,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Standard-Room1.png",
+    "reserved": [{ "from": "0000-00-00", "to": "0000-00-00"  }]
   },
   {
-    "room_number": 9,
     "type": "Suite",
-    "beds": 5,
-    "cost_per_night": 500,
-    "available": true
+    "beds": 4,
+    "cost_per_night": 400,
+    "max_occupancy": 4,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Standard-Room1.png",
+    "reserved": [{ "from": "2021-12-05", "to": "2021-12-10" }]
   },
   {
-    "room_number": 10,
     "type": "Suite",
-    "beds": 5,
-    "cost_per_night": 500,
-    "available": true
+    "beds": 4,
+    "cost_per_night": 400,
+    "max_occupancy": 4,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Standard-Room1.png",
+    "reserved": [{ "from": "0000-00-00", "to": "0000-00-00"  }]
+  }, {
+    "type": "Suite",
+    "beds": 4,
+    "cost_per_night": 400,
+    "max_occupancy": 4,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Standard-Room1.png",
+    "reserved": [{ "from": "2021-12-05", "to": "2021-12-10" }]
+  },
+  {
+    "type": "Suite",
+    "beds": 4,
+    "cost_per_night": 400,
+    "max_occupancy": 4,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Suite-Room.png",
+    "reserved": [{ "from": "2021-12-05", "to": "2021-12-10" }]
+  },{
+    "type": "Suite",
+    "beds": 4,
+    "cost_per_night": 400,
+    "max_occupancy": 4,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Suite-Room.png",
+    "reserved": [{ "from": "2021-12-05", "to": "2021-12-10" }]
+  },{
+    "type": "Suite",
+    "beds": 4,
+    "cost_per_night": 400,
+    "max_occupancy": 4,
+    "description": "Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.",
+    "image":"https://www.bedroomchecker.com/wp-content/uploads/2013/12/Suite-Room.png",
+    "reserved": [{ "from": "0000-00-00", "to": "0000-00-00" }]
   }
 ]

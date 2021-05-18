@@ -2,17 +2,28 @@ import React from "react";
 import NavBar from "../components/NavBar/NavBar.jsx";
 
 class Login extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
+  constructor() {
+    super();
+    this.state = {
+      username: "",
+    };
   }
   render() {
     return (
       <div>
         <NavBar />
-        <h1>Login </h1>
+        <form>
+          <input
+            type="text"
+            value={this.state.username}
+            placeholder="username"
+          />
+          <input type="password" placeholder="password" />
+          <button type="submit">submit</button>
+        </form>
       </div>
     );
   }
 }
+
 export default Login;

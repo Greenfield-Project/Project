@@ -8,7 +8,7 @@ class NavBar extends React.Component {
     return (
       <nav className="NavbarItems">
         <h1 className="navbar-logo">
-          React<i className="fab fa-react"></i>
+          JANUS HOTEL *****<i className="fab fa-react"></i>
         </h1>
         <div className="menu-icon">
         </div>
@@ -23,8 +23,8 @@ class NavBar extends React.Component {
             );
           })}
         </ul>
-        <Button>Sign up</Button> &nbsp;&nbsp;&nbsp;
-        <Button>Login</Button>
+        {/* <Button>Register</Button> &nbsp;&nbsp;&nbsp;
+        <Button>Login</Button> */}
       </nav>
     );
   }

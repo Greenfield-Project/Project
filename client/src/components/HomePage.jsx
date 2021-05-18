@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import NavBar from "../components/NavBar/NavBar.jsx";
 import { Button } from "../components/NavBar/Button.jsx";
 import axios from "axios";
-// import MyImg from "../assets/images/img7.jpg";
+// import MyImg from "../../src/assets/images/MyImg.jpg";
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -31,7 +31,7 @@ class HomePage extends React.Component {
       <div>
         <NavBar />
         <div className="img-container">
-          {/* <img src={MyImg} /> */}
+          { <img src={'https://res.cloudinary.com/grand-luxury/image/upload/w_480,h_256,q_50,f_auto,c_fill,g_center,dpr_3/remote_glh/original/62022-root-pool-outdoor-pool.jpg'} id='image' /> }
           <h3>LIVE THE WONDEROUS LIFE</h3>
           <p>What are you waiting for ?</p>
           <Button
